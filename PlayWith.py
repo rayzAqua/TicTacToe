@@ -40,7 +40,7 @@ def play_with_menu():
                              text_input="QUIT", font=get_font(30), base_color="White", hovering_color="Gray")
 
         # Draw credit text
-        credits_text = get_font(12).render("Created by group 2", True, "#F7EB02")
+        credits_text = get_font(12).render("Created by group 24", True, "Black")
         credits_rect = credits_text.get_rect(center=(WIDTH_MENU / 2, 570))
         SCREEN.blit(credits_text, credits_rect)
 
